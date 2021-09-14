@@ -6,10 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Список дел</title>
   <link rel="stylesheet" href="theme.css" />
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="container" id="app">
+  <div class="container" id="app" v-cloak>
     <div class="card">
       <h1>{{title}}</h1>
       <div class="form-control">

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Список дел</title>
+  <title>To-do list</title>
   <link rel="stylesheet" href="theme.css" />
   <style>
     [v-cloak] {
@@ -22,13 +22,13 @@
           v-on:input="inputChangeHandler" v-on:keypress.enter="addNewNote">
       </div>
 
-      <button class="btn" v-on:click="addNewNote">Добавить</button>
+      <button class="btn" v-on:click="addNewNote">Add</button>
       <hr />
       <ul class="list" v-if="notes.length !==0 ">
         <li class="list-item" v-for='(myNote, index) in notes'>({{index+1}}) {{myNote}} <button class="btn danger"
-            v-on:click="removeNote(index, $event)">Сделано</button></li>
+            v-on:click="removeNote(index, $event)">Done</button></li>
       </ul>
-      <div v-else-if="notes.length ===0">Заметок пока нет, добавьте хотя бы одну</div>
+      <div v-else-if="notes.length ===0">No tasks, please enter at least one</div>
     </div>
   </div>
 

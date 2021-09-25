@@ -2,8 +2,8 @@ const App = {
     data() {
         return {
 
-            title: 'Список дел',
-            placeholderString: 'Введите название',
+            title: 'To-Do List',
+            placeholderString: 'Enter task name',
             inputValue: '',
             notes: [],
 

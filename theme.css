@@ -29,7 +29,7 @@ ul {
 }
 
 a {
-  color: #3eaf7c;
+  color: #1027d8;
   font-weight: 500;
   text-decoration: none;
 }
@@ -60,7 +60,7 @@ h3 {
 }
 
 .primary {
-  color: #42b983;
+  color: #1027d8;
 }
 
 .danger {
@@ -68,14 +68,14 @@ h3 {
 }
 
 .btn {
-  color: #42b983;
+  color: #1027d8;
   position: relative;
   place-content: center;
   place-items: center;
   width: fit-content;
   border-radius: 99px;
   letter-spacing: 0.05em;
-  border: 1px solid #42b983;
+  border: 1px solid #1027d8;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 10px;
@@ -97,7 +97,7 @@ h3 {
 }
 
 .btn.primary {
-  background: #42b983;
+  background: #1027d8;
   color: #fff;
 }
 
@@ -142,7 +142,7 @@ h3 {
 .form-control input:active,
 .form-control input:focus {
   transition: border 0.22s;
-  border: 2px solid #42b983;
+  border: 2px solid #1027d8;
 }
 
 .card {
